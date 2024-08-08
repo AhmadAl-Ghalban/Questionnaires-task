@@ -1,0 +1,171 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomButton renders correctly with custom buttonStyle and textStyle 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "red",
+      "borderRadius": 5,
+      "opacity": 1,
+      "paddingHorizontal": 60,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+        },
+        {
+          "color": "yellow",
+        },
+      ]
+    }
+  >
+    Custom Button
+  </Text>
+</View>
+`;
+
+exports[`CustomButton renders correctly with custom title 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007BFF",
+      "borderRadius": 5,
+      "opacity": 1,
+      "paddingHorizontal": 60,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Custom Title
+  </Text>
+</View>
+`;
+
+exports[`CustomButton renders correctly with default props 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "#007BFF",
+      "borderRadius": 5,
+      "opacity": 1,
+      "paddingHorizontal": 60,
+      "paddingVertical": 10,
+    }
+  }
+>
+  <Text
+    style={
+      [
+        {
+          "color": "#ffffff",
+          "fontSize": 16,
+        },
+        undefined,
+      ]
+    }
+  >
+    Click Me
+  </Text>
+</View>
+`;

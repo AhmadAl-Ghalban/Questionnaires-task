@@ -10,7 +10,12 @@ const HomeScreen = ({navigation}) => {
   return (
     <SafeAreaView style={styles.safeArea}>
       <View style={styles.logoContainer}>
-        <Image source={logo} style={styles.logo} resizeMode="contain" />
+        <Image
+          source={logo}
+          style={styles.logo}
+          resizeMode="contain"
+          testID="home-logo"
+        />
       </View>
       <View style={styles.contentContainer}>
         <View style={styles.textContainer}>

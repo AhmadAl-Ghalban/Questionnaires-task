@@ -93,6 +93,7 @@ const QuestionnaireScreen = ({navigation}) => {
             label={`Question ${index + 1}`}
             onSubmit={handleSubmit}
             onNext={() => handleNext(index)}
+            nextBtnText="Next"
             nextBtnDisabled={selectedAnswers[question.id] === undefined}
             nextBtnTextStyle={styles.buttonTextStyle}
             previousBtnTextStyle={{

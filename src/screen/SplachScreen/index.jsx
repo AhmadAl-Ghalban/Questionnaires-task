@@ -20,7 +20,7 @@ const SplashScreen = ({navigation}) => {
 
   return (
     <View style={styles.container}>
-      <Image source={rakLogo} style={styles.logo} />
+      <Image source={rakLogo} style={styles.logo} testID="splash-logo" />
     </View>
   );
 };

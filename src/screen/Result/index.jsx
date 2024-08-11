@@ -90,6 +90,7 @@ const ResultScreen = ({navigation}) => {
               />
             </View>
             <ProgressView
+              testID="progress-view"
               progress={getProgress()}
               progressTintColor={getProgressTintColor()}
               trackTintColor={Colors.progressColor}

@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import {Text, TouchableOpacity} from 'react-native';
-import CustomButton from '../Button';
+import CustomButton from '../src/component/Button';
 
 describe('CustomButton', () => {
   it('renders correctly with default props', () => {

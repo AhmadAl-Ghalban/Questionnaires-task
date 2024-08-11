@@ -1,7 +1,7 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 import {useNavigation} from '@react-navigation/native';
-import HeaderComponent from '../Header';
+import HeaderComponent from '../src/component/Header';
 
 jest.mock('@react-navigation/native', () => ({
   useNavigation: jest.fn(),

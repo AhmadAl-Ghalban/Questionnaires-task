@@ -2,10 +2,10 @@
 import React from 'react';
 import {createStackNavigator} from '@react-navigation/stack';
 import {NavigationContainer} from '@react-navigation/native';
-import HomeScreen from '../screen/home';
+import HomeScreen from '../screen/Home';
 import QuestionnaireScreen from '../screen/Questionnaire';
 import ResultScreen from '../screen/Result';
-import SplashScreen from '../screen/splach';
+import SplashScreen from '../screen/SplachScreen';
 
 const Stack = createStackNavigator();
 
